@@ -15,6 +15,7 @@ def start():
 
     sys.exit(app.exec_())
 
+
 def testApp():
     app = QtWidgets.QApplication(sys.argv)
     Dialog = QtWidgets.QDialog()
@@ -23,6 +24,7 @@ def testApp():
     Dialog.show()
     sys.exit(app.exec_())
 
+
 if __name__ == "__main__":
     testApp()
-    #start()
+    # start()
